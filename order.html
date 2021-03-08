@@ -36,6 +36,7 @@
             Who are we sending this to?
             <input type="text" name="recipient"><br>
             
+    
             Choose a melon:
             <select name="melon">
                 <option value="watermelon">Watermelon</option><br>
@@ -44,19 +45,19 @@
             </select>
             <br>
             When should we deliver?<br>
-            <input type = "radio" name = "time" value = 'AM'>
-            <label>Morning</label><br>
-            <input type = "radio" name = "time" value = 'PM'>
-            <label>Evening</label><br>
-            <input type = "radio" name = "time" value = 'Any'>
-            <label>Any time</label><br>
+            <input type = "radio" name = "time" value = 'AM' id="morning">
+            <label for = "morning">Morning</label><br>
+            <input type = "radio" name = "time" value = 'PM' id="evening">
+            <label for = "evening">Evening</label><br>
+            <input type = "radio" name = "time" value = 'Any' id="anytime">
+            <label for = "any time">Any time</label><br>
 
             <label>Enter your message:</label><br>
             <textarea name="message"></textarea><br>
             
             Subscribe to our newsletter<br>
             <input type = "checkbox" name="subscribe" value="yes">
-            <label>Yes</label><br>
+            <label for = "yes">Yes</label><br>
 
             <button type = "submit">Submit</button>
         </form>
